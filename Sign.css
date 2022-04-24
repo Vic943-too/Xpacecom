@@ -1,0 +1,90 @@
+html{background-image: url(images/astronaut-exploring-space_a2lmZ26UmZqaraWkpJRobWllrWdma2U\ \(2\).jpg);
+color: tan;
+contain: content;
+}
+
+.tall{
+    height: 30px;
+   width : 70px;
+}
+.big{
+    font-size: 80px;
+    font-family: cursive;
+color: darkred;
+text-align: center;
+}
+marquee{
+    color: lightcoral;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.small{
+    height: 30px;
+    width: 300px;
+    color: black;    background-color:transparent;  text-align: center;
+
+}
+
+.navba{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: teal;
+    color: #fff;
+   }
+   .nav-links a {
+    color: #fff;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #4c9e9e;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+*{
+    text-decoration: none;
+}
+img{
+    border-radius: 30px;
+   height: 40px;
+width: 40px;}
